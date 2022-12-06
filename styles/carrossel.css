@@ -34,6 +34,7 @@
 
 .botoes{
     display: flex;
+    margin-top: 1em;
 }
 
 .card{
@@ -70,4 +71,36 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+    margin-top: 1em;
+}
+
+.mais__vendidos{
+    background-color: var(--branco);
+    padding: 1.5em 0 1em 0;
+}
+
+.card__autor{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.autor__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.imagem__estrelinhas{
+    margin: 0 0 1em 0;
+}
+
+.autor__nome{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--azul);
+    margin: 0.5em 0;
+}
+
+.descricao__autor{
+    font-size: 14px;
 }

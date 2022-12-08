@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraBooks</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
@@ -36,9 +37,40 @@
                 </li>
             </ul>
             <img src="img/Logo.svg" alt="Logo da AluraBooks" class="cabecalho__container-imagem">
+            <h1 class="cabecalho__container--titulo"><strong>Alura</strong>Books</h1>
         </div>
+
+        <ul class="opcoes">
+
+            <input type="checkbox" class="opcoes__botao" id="opcoes-menu">
+            <label for="opcoes-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
+        </ul>
+
         <div class="cabecalho__container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="cabecalho__container-imagem"></a>
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="cabecalho__container-imagem cabecalho__imagem-favoritos"></a>
             <a href="#"><img src="img/Sacola.svg" alt="Carrinho de compras" class="cabecalho__container-imagem"></a>
             <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="cabecalho__container-imagem"></a>
         </div>
